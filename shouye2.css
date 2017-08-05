@@ -1,0 +1,308 @@
+/*中间部分的中间内容样式*/
+#maincenter{
+	position: relative;
+	width: 1250px;
+	height: 1285px;
+	margin: 5px 60px 0px 60px;
+}
+/*中间部分的中间内容的标题样式*/
+#biaoti1{
+	font-weight: bold;
+	font-size: 32px;
+}
+#biaoti2{
+	font-size: 27px;
+	color: #ffa070;
+	font-weight: bold;
+}
+/*中间部分的强挡推荐样式*/
+/*线条样式*/
+#xian1{
+	position: absolute;
+	top: 14px;
+	left:130px;
+	width: 470px;
+}
+#xian2{
+	position: absolute;
+	top: 14px;
+	right:0px;
+	width: 560px;
+}
+/*圆圈样式*/
+#yuana,#yuanb,#yuanc{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#yuanb,#yuanc{
+	display: none;
+}
+#yuan1,#yuan2,#yuan3,#yuan4,#yuan5,#yuan6,#yuan7,#yuan8,#yuan9{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 18px;
+	border-radius: 90px;
+}
+#yuan1{
+	left: 620px;
+	background: rgba(0,0,0,0.8);
+}
+#yuan2{
+	left: 640px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan3{
+	left: 660px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan4{
+	left: 620px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan5{	
+	left: 640px;
+	background: rgba(0,0,0,0.8);
+}
+#yuan6{
+	left: 660px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan7{
+	left: 620px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan8{
+	left: 640px;
+	background: rgba(0,0,0,0.2);
+}
+#yuan9{
+	left: 660px;
+	background: rgba(0,0,0,0.8);
+}
+.tdbiaoti1{
+	font-size: 15px;
+}
+.tdbiaoti2{
+	color: #808080;
+}
+/*强档推荐的表格颜色样式*/
+#tablea,#tableb,#tablec{
+	position: relative;
+	top: 22px;
+	left:25px;
+}
+#tableb,#tablec{
+	display: none;
+}
+/*VIP动漫社背景样式*/
+#divbg{
+	width: 1178px;
+	height: 62px;
+	left:25px;
+	position: absolute;
+	top: 350px;
+	background: rgba(240,240,240,0.2);
+	border:1px #ccc solid;
+	font-size: 15px;
+	color: #666666;
+	font-weight: bold;
+}
+.tt1{
+	width: 450px;
+}
+.tt2{
+	font-size: 19px;
+	color: black;
+	font-weight: 500;
+}
+#biaoti3{
+	font-weight: bold;
+	font-size: 24px;
+}
+/*强推作品样式*/
+#maincenter2{
+	position: relative;
+	top:150px;
+	left: 25px;
+	width: 1178px;
+	height: 816px;
+}
+/*强推作品左边样式*/
+#centerleft{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 750px;
+	height: 310px;
+}
+#centertu{
+	width: 41px;
+	height: 47px;
+	position: absolute;
+	right: 380px;
+	top: 0px;
+	z-index: 1;
+}
+#centertop1{
+	width: 380px;
+	height: 39px;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	background: #ec5245;
+	line-height: 39px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+/*强推作品右边样式*/
+#centerright{
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	width: 420px;
+	height: 260px;
+}
+#xuhao3{
+	width: 15px;
+	height: 15px;
+	background: #ec5245;
+	text-align: center;
+	line-height: 15px;
+	border: 1px #ec5245 solid;
+}
+#xuhao4{
+	width: 15px;
+	height: 15px;
+	background: white;
+	text-align: center;
+	line-height: 15px;
+	border: 1px #ccc solid;
+}
+/*中间部分连载表样式*/
+#centerleft2{
+	position: relative;
+	left: 0px;
+	top: 335px;
+	width: 750px;
+	height: 310px;
+}
+/*中间部分连载表标题样式*/
+#weekbiaoti{
+	position: absolute;
+	width: 750px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#biaoti4{
+	font-size: 16px;
+	color: #ffa070;
+	font-weight: bold;
+}
+#weekkongbai{
+	width: 100px;
+}
+.week{
+	width: 45px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 17px;
+	color: #666666;
+	font-weight: bold;
+}
+#weekduo a{
+	font-size: 16px;
+	color: #666666;
+}
+.over{
+	width: 45px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: center;
+	background:#ffa070; 
+	color: white;
+	font-weight: bold;
+}
+.out{
+	width: 45px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 17px;
+	color: #666666;
+	font-weight: bold;
+	background:rgba(240,240,240,1); 
+}
+#weektb1,#weektb2,#weektb3,#weektb4,#weektb5,#weektb6,#weektb7{
+	width: 750px;
+	height: 260px;
+	position: relative;
+	left: 0px;
+	top:50px;
+}
+#weektb2,#weektb3,#weektb4,#weektb5,#weektb6,#weektb7{
+	display: none;
+}
+#centerright2{
+	position: absolute;
+	right: 0px;
+	top: 335px;
+	width: 420px;
+	height: 310px;
+}
+#weekbiaoti2{
+	position: absolute;
+	width: 420px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    line-height: 65px;
+}
+#divtu1{
+	width: 398px;
+	height: 226px;
+	position: relative;
+	left: 10px;
+	top: 0px;	
+}
+#xiangl{
+	width: 30px;
+	height: 60px;
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+	top: 160px;
+    left:10px;
+    text-align:center;
+    font-size: 20px;
+}
+#xiangr{
+	width: 30px;
+	height: 60px;
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+	top: 160px;
+    right:10px;
+    text-align:center;
+    font-size: 20px;
+}
+#maincenter3{
+	width: 1175px;
+	height: 127px;
+	/*border:1px red solid;*/
+	position: absolute;
+	top:688px;
+	left: 0px;
+}
+.tdborder1{
+	border-top:13px #696969 solid; 
+	border-bottom:14px #696969 solid; 
+}
+.tdborder2{
+	border-right:8px #696969 solid; 
+	border-left:7px #696969 solid; 
+}

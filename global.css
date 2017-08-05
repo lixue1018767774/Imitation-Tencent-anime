@@ -1,0 +1,10 @@
+body,ul,ol,tr,dl,dd,form,input,h1{margin:0px;padding:0px;}
+a{color:#333;text-decoration: none;} 
+/*超链接伪类样式*/   
+a:hover {color:#ff7300;} 
+a img{border:0px;}
+/*所有的li的样式无*/
+li{list-style:none;}
+/*所有的input标签都统一为细边框 ，高度22px*/
+input{border:1px black solid;height:22px;}
+body{font:normal 13px Tahoma,宋体;}

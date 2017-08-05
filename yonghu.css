@@ -1,0 +1,254 @@
+body{
+	background:rgba(240,240,240,1);
+}
+/*用户登录网页头部*/
+#header{
+	width: 1362px;
+	height: 50px;
+	margin: 0px auto;
+	background: white;
+}
+#title{
+	font-size: 34px;
+	color:#ff7300;
+	font-weight: 900;
+	font-family: 华文行楷;
+	line-height: 55px;	
+	margin-left: 70px;
+}
+.uls{
+	position: absolute;
+  	left: 240px;
+   	top:0px;
+}
+.uls li{
+	float: left;
+	font-size: 17px;
+	width: 80px;
+	height: 48px;
+	line-height: 50px;
+	text-align: center;
+}
+.uls li a:hover{
+	color:white;
+}
+.over3{
+	background: #ff7300;
+	width: 80px;
+	height: 50px;
+}
+.out3{
+	background: white;
+	width: 80px;
+	height: 50px;
+}
+/*用户登录网页底部*/
+#footer{
+	width: 1362px;
+	height: 260px;
+	background: #ff7f50;
+	position: absolute;
+	left: 0px;
+	top:754px;
+	color: white;
+}
+#wei1{
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	left: 540px;
+	top:50px;
+}
+#er1{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	left: 13px;
+	top: 0px;
+}
+#er2{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	left: 7px;
+	top: 0px;
+}
+#wei2{
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	left: 700px;
+	top:50px;
+}
+#teng1,#teng2{
+	position: absolute;
+	top:76px;
+	left: 4px;
+}
+#footjs1{
+	width: 650px;
+	height: 26px;
+	position: absolute;
+	top: 170px;
+	left: 355px;
+}
+#footjs1 a{
+	color: white;
+}
+#footjs1 a:hover{
+	color: purple;
+	text-decoration: underline;
+}
+#footjs2{
+	width: 310px;
+	height: 32px;
+	position: absolute;
+	top: 200px;
+	left: 520px;
+}
+#footjs3{
+	width: 120px;
+	height: 24px;
+	position: absolute;
+	top: 230px;
+	left: 612px;
+}
+#mask {
+    width: 1360px;
+    height: 1015px;
+    opacity: 0.4;   /*半透明*/
+    filter: alpha(opacity = 40);  /*ie 6半透明*/
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#show1,#show2{
+    width: 600px;
+    height: 380px;
+    background: white;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    margin: -150px 0 0 -150px;
+    z-index: 2;
+    /*display: none;*/	
+}
+#show2{
+	display: none;
+}
+#x1,#x2{
+	width: 50px;
+	height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    border:1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+}
+#dl1{
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	top: 70px;
+	left: 230px;
+}
+#dl2{
+	font-size: 18px;
+	position: absolute;
+	top: 120px;
+	left: 190px;
+	color: #666;
+}
+#dl2 a{
+	color: blue;
+}
+#dl2 a:hover{
+	text-decoration: underline;
+}
+#dl3{
+	font-size: 18px;
+	position: absolute;
+	top: 150px;
+	left: 220px;
+	color: #666;
+}
+#dl4{
+	position: absolute;
+	top: 206px;
+	left: 250px;
+	border: 1px #ccc solid;
+}
+#dl5{
+	font-size: 13px;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	color: black;
+}
+
+#dl5 a{
+	color: #666;
+}
+#dl5 a:hover{
+	text-decoration: underline;
+}
+
+#dl6{
+	font-size: 18px;
+	position: absolute;
+	top: 120px;
+	left: 177px;
+	color: #666;
+}
+#dl6 a{
+	color: blue;
+}
+#dl6 a:hover{
+	text-decoration: underline;
+}
+#dl7{
+	position: absolute;
+	top: 150px;
+	left: 180px;
+}
+#dl8{
+	position: absolute;
+	top: 200px;
+	left: 180px;
+}
+.inp{
+	width: 260px;
+	height: 40px;
+	border:1px #708090 solid;
+}
+#message1{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	left: 180px;
+	top:162px;
+	color:#ccc;
+}
+#message2{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	left: 180px;
+	top:212px;
+	color:#ccc;
+}
+#btn{
+	position: absolute;
+	top: 250px;
+	left: 180px;
+	width: 260px;
+	height: 40px;
+	background: #7fff00;
+	color: white;
+	font-size:18px;
+	border:none;
+}

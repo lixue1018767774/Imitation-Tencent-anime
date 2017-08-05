@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客服中心</title>
+	<link rel="shortcut icon" href="images2/jiaobiao.ico">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" type="text/css" href="kefu.css">
+</head>
+<body>
+    <!-- 头部 -->
+	<div id="header">
+		<img src="images2/kefu.png" id="kefu">
+		<input type="text" id="txt"><input type="button" id='btn' value="搜索">
+		<label id="message" for="txt">请输入产品或问题</label>
+	</div>
+	<!-- 中间部分 -->
+	<div id="main">
+		<img src="images2/aq.png">
+		<div id="left">
+			<div id="circle1" onmouseover="changebor(1)" onmouseout="nchangebor(1)">
+				<img src="images2/cir1.png">
+			</div>
+			<div id="circle2" onmouseover="changebor(2)" onmouseout="nchangebor(2)">
+				<img src="images2/cir2.png">
+			</div>
+			<div id="circle3" onmouseover="changebor(3)" onmouseout="nchangebor(3)">
+				<img src="images2/cir3.png">
+			</div>
+			<div id="circle4" onmouseover="changebor(4)" onmouseout="nchangebor(4)">
+				<img src="images2/cir4.png">
+			</div>
+			<ul id="ul1">
+				<li>修改密码</li>
+				<li>申诉查询</li>
+				<li>密保工具</li>
+				<li>紧急冻结</li>
+			</ul>
+			<br><br>
+			<hr width="600px" color="#e8e8e8" size="1px"></hr>
+			<div id="leftbk">
+				<div id="bk1">
+					<div id="question1" onmouseover="changeb(1)" onmouseout="nchangeb(1)" onclick="open()">申诉填写问题</div>
+					<div id="qs">如何填写申诉表</div>
+				</div>
+				<div id="bk2">
+					<div id="question2" onmouseover="changeb(2)" onmouseout="nchangeb(2)">密保手机</div>
+					<div id="qs">密保手机绑定，解绑</div>
+				</div>
+				<div id="bk3">
+					<div id="question3" onmouseover="changeb(3)" onmouseout="nchangeb(3)">独立密码管理</div>
+					<div id="qs">QQ通讯录，个人支付密码随心设置</div>
+				</div>
+			</div>
+			<div id="rightbk">
+				<div id="bk4">
+					<div id="question4" onmouseover="changeb(4)" onmouseout="nchangeb(4)">保护模式</div>
+					<div id="qs">号码进入保护模式解除方法</div>
+				</div>
+				<div id="bk5">
+					<div id="question5" onmouseover="changeb(5)" onmouseout="nchangeb(5)">QQ安全中心手机版</div>
+					<div id="qs">QQ安全中心绑定，解绑</div>
+				</div>
+				<div id="bk6">
+					<div id="question6" onmouseover="changeb(6)" onmouseout="nchangeb(6)">修改QQ密码</div>
+					<div id="qs">为您提供QQ密码修改方式</div>
+				</div>
+			</div>	
+		</div>
+		<div id="right">
+			<table border="0" cellpadding="0" cellspacing="0" width="305px" height="300px">
+				<tr>
+					<td class="td1">热门问题</td>
+					<td align="right"><a href="#">更多>></a></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="td2"><a href="#">申诉常见问题</a></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="td2"><a href="#">密保手机使用</a></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="td2"><a href="#">QQ安全中心手机版</a></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="td2"><a href="#">申诉失败怎么办</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div id="footer">
+		<div id="wei1">
+			<div id="er1"><img src="images2/er1.jpg"></div>
+			<div id="teng1">腾讯动漫客户网</div>
+		</div>
+		<div id="wei2">
+			<div id="er2"><img src="images2/er2.jpg"></div>
+			<div id="teng1">腾讯动漫微信</div>
+		</div>
+		<div id="footjs1">
+			<a href="#">网站地图</a>&nbsp;&nbsp;<a href="#">站内帮助</a>&nbsp;&nbsp;<a href="#">反馈通道</a>&nbsp;&nbsp;<a href="#">官方微博</a>&nbsp;&nbsp;<a href="#">邮箱推荐</a>&nbsp;&nbsp;<a href="#">服务协议</a>&nbsp;&nbsp;<a href="#">侵权反馈指引</a>&nbsp;&nbsp;<a href="#">联系方式：ac_copyright@qq.com</a>
+		</div>
+		<div id="footjs2">
+			Copyright&copy;1998 - 2016 Tencent. AllRights Reserved
+		</div>
+		<div id="footjs3">腾讯公司&nbsp;&nbsp;版权所有</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="kefu.js"></script>

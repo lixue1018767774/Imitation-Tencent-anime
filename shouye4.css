@@ -1,0 +1,259 @@
+/*中间底部上升最快表格的样式*/
+#btop4{
+	width: 1180px;
+	height: 435px;
+	position: absolute;
+	left: 25px;
+	top: 1120px;
+}
+#btleft{
+	width: 560px;
+	height: 430px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#btbiaoti{
+	width: 560px;
+	height: 50px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#bttb1{
+	width: 560px;
+	height: 380px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#bttb2{
+	width: 560px;
+	height: 380px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.zi{
+	width: 52px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 17px;
+	color: #666666;
+	font-weight: bold;	
+}
+#zi1,#zi2{
+	width: 52px;
+	height: 25px;
+}
+.over2{
+	width: 52px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: center;
+	background:#ffa070; 
+	color: white;
+	font-weight: bold;
+}
+.out2{
+	width: 52px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 17px;
+	color: #666666;
+	font-weight: bold;
+	background:rgba(240,240,240,1); 
+}
+
+#btright{
+	width: 590px;
+	height: 433px;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+}
+.aaa{
+	text-decoration: underline;
+}
+#zhexian{
+	width: 60px;
+	height: 30px;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+#paiming{
+	width: 590px;
+	height:30px;
+	background: #ff7f50;
+	text-align: center;
+	line-height: 30px;
+	color: white; 
+}
+/*中间底部优秀绘本的样式*/
+#bbottom{
+	width: 1000px;
+	height: 355px;
+	position: absolute;
+	top: 1600px;
+	left: 25px;
+}
+#bbiaotia{
+	width: 850px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	line-height: 50px;
+}
+#bbiaotib{
+	width: 140px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 18px;
+	text-align: right;
+	line-height: 50px;
+}
+#huiben{
+	width: 953px;
+	height: 280px;
+	position: relative;
+	left: 20px;
+	top: 70px;
+}
+#hunbena1{
+	width: 299px;
+	height: 264px;
+    position: relative;
+    left: 7px;
+    top:7px;
+}
+#hunbena2{
+	width: 299px;
+	height: 264px;
+    opacity: 0.9;   /*半透明*/
+    filter: alpha(opacity = 90);  /*ie 6半透明*/
+    position: absolute;
+    left: 7px;
+    top:7px;
+    background: #ffa070;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+}
+.wenwen{
+	font-size: 20px;
+}
+#hunbenb1{
+	width: 292px;
+	height: 168px;
+    position: absolute;
+    left: 313px;
+    top:5px;
+}
+#hunbenc1{
+	width: 292px;
+	height: 95px;
+    position: absolute;
+    left: 313px;
+    top:177px;
+}
+#hunbend1{
+	width: 169px;
+	height: 264px;
+    position: absolute;
+    left: 612px;
+    top:7px;
+}
+#hunbene1{
+	width: 156px;
+	height: 146px;
+    position: absolute;
+    right:7px;
+    top:5px;
+}
+#hunbenf1{
+	width: 156px;
+	height: 118px;
+    position: absolute;
+    right:7px;
+    bottom:5px;
+}
+#footer{
+	width: 1240px;
+	height: 260px;
+	background: #ff7f50;
+	position: relative;
+	left: 50px;
+	top:50px;
+	color: white;
+}
+#wei1{
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	left: 510px;
+	top:50px;
+}
+#er1{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	left: 13px;
+	top: 0px;
+}
+#er2{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+}
+#wei2{
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	left: 670px;
+	top:50px;
+}
+#teng1,#teng2{
+	position: absolute;
+	top:76px;
+	left: 4px;
+}
+#footjs1{
+	width: 650px;
+	height: 26px;
+	position: absolute;
+	top: 170px;
+	left: 330px;
+}
+#footjs1 a{
+	color: white;
+}
+#footjs1 a:hover{
+	color: purple;
+	text-decoration: underline;
+}
+#footjs2{
+	width: 310px;
+	height: 32px;
+	position: absolute;
+	top: 200px;
+	left: 485px;
+}
+#footjs3{
+	width: 120px;
+	height: 24px;
+	position: absolute;
+	top: 230px;
+	left: 575px;
+}

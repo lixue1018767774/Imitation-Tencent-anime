@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的收藏</title>
+	<link rel="shortcut icon" href="images2/jiaobiao.ico">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" type="text/css" href="shoucang.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="header">
+		<span id="title">腾讯动漫</span>
+		<span id="menu"></span>
+		<ul class="uls">
+			<li id="lis1"><a href="index.html">首&nbsp;页</a></li>
+			<li id="lis2"><a href="#">VIP动漫社</a></li>
+			<li id="lis3"><a href="#">日漫</a></li>
+			<li id="lis4"><a href="#">轻小说</a></li>
+			<li id="lis5"><a href="#">资讯</a></li>
+			<li id="lis6"><a href="#">动画</a></li>
+			<li id="lis7"><a href="#">商城</a></li>
+			<li id="lis8"><a href="#">排行榜</a></li>
+			<li id="lis9"><a href="#">个人中心</a></li>
+			<li id="lis10"><a href="#">客户端</a></li>
+		</ul>
+	</div>
+	<!-- 中间部分 -->
+	<div id="main">
+		<table border="0" cellpadding="0" cellspacing="0" width="980px"
+	 align="center" id="tab">
+	 		<tr>
+	 			<td id="first" colspan="7">我的书架</td>
+	 		</tr>
+			<tr id="second" height="60px">
+		        <td colspan="6" align="left" border="0"><input type="checkbox" name="chcall" id="chcall" onclick="show()">全选</td>
+		        <td align="right"><input type="button" value="取消全部收藏" id="delall"></td>
+			</tr>
+			<tr onmouseover="opendel(1)" onmouseout="closedel(1)" id="td1">
+		        <td><input type="checkbox" name="chcevery" id="chcevery1"></td>
+		        <td><img src="images2/td1.jpg"></td>
+		        <td>天之王女</td>
+		        <td>更新至72话</td>
+		        <td>尚未阅读</td>
+		        <td align="center"><div id="read"><a href="#">开始阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del1"  name="delevery" onclick="dele(1)">取消收藏</div>
+		        </td>
+			</tr>
+			<tr onmouseover="opendel(2)" onmouseout="closedel(2)" id="td2">
+		        <td><input type="checkbox" name="chcevery" id="chcevery2"></td>
+		        <td><img src="images2/td2.jpg"></td>
+		        <td>艳势番</td>
+		        <td>更新至50话</td>
+		        <td>尚未阅读</td>
+		        <td align="center"><div id="read"><a href="#">开始阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del2" name="delevery">取消收藏</div>
+		        </td>
+			</tr>
+			<tr onmouseover="opendel(3)" onmouseout="closedel(3)" id="td3">
+		        <td><input type="checkbox" name="chcevery" id="chcevery3"></td>
+		        <td><img src="images2/td3.jpg"></td>
+		        <td>鲜师90后</td>
+		        <td>全50话</td>
+		        <td>尚未阅读</td>
+		        <td align="center"><div id="read"><a href="#">开始阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del3" name="delevery">取消收藏</div>
+		        </td>
+			</tr>
+			<tr onmouseover="opendel(4)" onmouseout="closedel(4)" id="td4">
+		        <td><input type="checkbox" name="chcevery" id="chcevery4"></td>
+		        <td><img src="images2/td4.jpg"></td>
+		        <td>恋爱教战手册</td>
+		        <td>更新至50话</td>
+		        <td>尚未阅读</td>
+		        <td align="center"><div id="read"><a href="#">开始阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del4" name="delevery">取消收藏</div>
+		        </td>
+			</tr>
+			<tr onmouseover="opendel(5)" onmouseout="closedel(5)" id="td5">
+		        <td><input type="checkbox" name="chcevery" id="chcevery5"></td>
+		        <td><img src="images2/td5.jpg"></td>
+		        <td>黑子的篮球</td>
+		        <td>全275话</td>
+		        <td>阅读至127话</td>
+		        <td align="center"><div id="read"><a href="#">继续阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del5" name="delevery">取消收藏</div>
+		        </td>
+			</tr>
+			<tr onmouseover="opendel(6)" onmouseout="closedel(6)" id="td6">
+		        <td><input type="checkbox" name="chcevery" id="chcevery6"></td>
+		        <td><img src="images2/td6.jpg"></td>
+		        <td>班长大人</td>
+		        <td>更新至93话</td>
+		        <td>阅读至87话</td>
+		        <td align="center"><div id="read"><a href="#">继续阅读</a></div></td>
+		        <td align="center">
+					<div id="know">已知更新</div>
+					<div id="del6" name="delevery">取消收藏</div>
+		        </td>
+			</tr>
+		</table>
+	</div>
+	<!-- 底部 -->
+	<div id="footer">
+		<div id="wei1">
+			<div id="er1"><img src="images2/er1.jpg"></div>
+			<div id="teng1">腾讯动漫客户网</div>
+		</div>
+		<div id="wei2">
+			<div id="er2"><img src="images2/er2.jpg"></div>
+			<div id="teng2">腾讯动漫微信</div>
+		</div>
+		<br>
+		<div id="footjs1">
+			<a href="#">网站地图</a>&nbsp;&nbsp;<a href="#">站内帮助</a>&nbsp;&nbsp;<a href="#">反馈通道</a>&nbsp;&nbsp;<a href="#">官方微博</a>&nbsp;&nbsp;<a href="#">邮箱推荐</a>&nbsp;&nbsp;<a href="#">服务协议</a>&nbsp;&nbsp;<a href="#">侵权反馈指引</a>&nbsp;&nbsp;<a href="#">联系方式：ac_copyright@qq.com</a>
+		</div>
+		<div id="footjs2">
+			Copyright&copy;1998 - 2016 Tencent. AllRights Reserved
+		</div>
+		<div id="footjs3">腾讯公司&nbsp;&nbsp;版权所有</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="shoucang.js"></script>

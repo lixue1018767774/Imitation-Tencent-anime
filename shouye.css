@@ -1,0 +1,627 @@
+body{
+	background:#f8f8f8;
+}
+/*头部样式*/
+#header{
+	width: 1311px;
+	height: 126px;
+	position: relative;
+}
+/*头部输入框样式*/
+#txt1{
+	width: 384px;
+	height: 42px;
+	position: absolute;
+	top:37px;
+	left: 464px;
+}
+/*头部搜索按钮样式*/
+#btn1{
+	width: 75px;
+	height: 44px;
+	background: url(images1/ss1.png) no-repeat -2px -2px;
+	position: absolute;
+	top: 37px;
+	left: 849px;
+}
+/*头部输入框内提示语句的样式*/
+.mess{
+	position: absolute;
+	/*border: 1px red solid;*/
+	top:50px;
+    left:468px;
+    color: #ccc;
+    cursor: text;
+}
+/*头部菜单栏样式*/
+#dheader{
+	position: relative;
+	top: -3px;
+	width: 1310px;
+	height: 56px;
+	background: #ff7f50;
+}
+
+.ultop{
+   position: absolute;
+   margin-left: 60px;
+   margin-top:20px;
+}
+
+.ultop li{
+	float: left;
+	width: 84px;
+	height: 57px;
+	text-align: center;
+}
+
+.ultop li a{
+	font-size: 17px;
+	font-family: 方正兰亭超细黑简体;
+	font-weight: bold;
+}
+
+#menuu{
+	width: 84px;
+	height:57px;
+	position: absolute;
+	background: url(images1/bg3.png) no-repeat 0px -1px;
+	margin-left: 60px;
+}
+#aa{
+	position: absolute;
+	right: 255px;
+	top:20px;  
+	font-weight:bold;
+}
+#aa a:hover{
+	color:#4b0082;
+}
+/*头部点券充值按钮样式*/
+#btn2{
+	width: 95px;
+	height: 36px;
+	background: url(images1/btn2.png) no-repeat -1px 0px;
+	/*border: 1px red solid;*/
+	position: absolute;
+	right: 145px;
+	top: 10px;
+	border-style: none;
+}
+/*头部动漫vip按钮样式*/
+#btn3{
+	width: 98px;
+	height: 36px;
+	background: url(images1/btn3.png) no-repeat -1px -1px;
+	/*border: 1px red solid;*/
+	position: absolute;
+	right: 45px;
+	top: 10px;
+	border-style: none;
+}
+/*悬浮导航条样式*/
+#daohangtiao{
+	width: 1310px;
+	height: 60px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0px;
+	left:0px;
+	display: none;
+	z-index: 5;
+}
+.uldao{
+	position: absolute;
+    margin-left: 50px;
+    margin-top:20px;
+}
+.uldao li{
+	float: left;
+	width: 105px;
+	height: 57px;
+	text-align: center;
+}
+.uldao li a{
+	font-size: 18px;
+	font-family: 方正兰亭超细黑简体;
+	font-weight: bold;
+	color: white;
+}
+#menud{
+	width: 105px;
+	height:55px;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 5px #ffa070 solid;
+	margin-left: 50px;
+}
+#daoimg{
+	width: 387px;
+	height: 47px;
+	background: url(images1/daosousuo.png) no-repeat;
+	position: absolute;
+	right: 190px;
+	top: 7px;
+}
+#txt2{
+	width: 307px;
+	height: 42px;
+	position: absolute;
+	top:8px;
+	left: 736px;
+}
+#dbtn{
+	width: 75px;
+	height: 44px;
+	background: url(images1/ss2.png) no-repeat -2px -3px;
+	position: absolute;
+	top: 8px;
+	right: 191px;
+}
+.messd{
+	position: absolute;
+	top:20px;
+    left:737px;
+    color: #666;
+    cursor: text;
+}
+/*右边菜单栏样式*/
+#right{
+	width: 38px;
+	height: 633px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	/*border:1px red solid;*/
+	background: white;
+}
+#r1{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 3px;
+	top:35px;
+	border:1px #ccc solid;
+}
+#r2{
+	width: 30px;
+	height: 53px;
+	position: absolute;
+	right: 3px;
+	top:100px;
+}
+#r3{
+	width: 32px;
+	height: 49px;
+	position: absolute;
+	right: 1px;
+	top:170px;
+}
+#r4{
+	width: 28px;
+	height: 55px;
+	position: absolute;
+	right: 4px;
+	top:235px;
+}
+#r5{
+	width: 28px;
+	height: 42px;
+	position: absolute;
+	right: 3px;
+	top:400px;
+}
+/*右边菜单中二维码样式*/
+#rer{
+	width: 145px;
+	height: 190px;
+	position: absolute;
+	right:45px;
+	top:380px;
+	z-index: 4;
+	display: none;
+}
+#x{
+	width: 15px;
+	height: 15px;
+	color: red;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border:1px #ccc solid;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer;
+}
+#zhixiang1{
+	width: 0px;
+	height: 0px;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-left: 17px solid;
+	color: white;
+	position: absolute;
+	right:-17px;
+	top:28px;
+	z-index: 5;
+}
+#r6{
+	width: 34px;
+	height: 31px;
+	position: absolute;
+	right: 0px;
+	top:470px;
+}
+#r7{
+	width: 30px;
+	height: 53px;
+	position: absolute;
+	right: 2px;
+	top:520px;
+	display: none;
+}
+/*中间部分的上部*/
+#maintop{
+	position: relative;
+	padding-top: 5px;
+	width: 1250px;
+	height: 680px;
+	margin: 65px 60px 0px 60px;
+}
+#ulmaintop{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#ulmaintop li{
+	float: left;
+	margin: 0px 8px;
+}
+#ulmaintop li a{
+	color: #666666;
+}
+#ulmaintop li a:hover{
+	color: #ff7300;
+}
+#btn4{
+	width: 89px;
+	height: 34px;
+	background: url(images1/btn4.png) no-repeat 0px -1px;
+	position: absolute;
+	right: 47px;
+	top: 0px;
+}
+#ulmaintop2{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+#lijiao{
+	width: 67px;
+	height: 27px;
+	position: absolute;
+	top: -3px;
+	left: -8px;
+	background: url(images1/jiao.png) no-repeat -1px -1px;
+}
+#ulmaintop2 li{
+	float: left;
+	margin: 8px 13px 0px 18px;
+	position: relative;
+}
+#ulmaintop2 a span{
+	position: absolute;
+	width: 14px;
+	height: 12px;
+	left: -15px;
+	top: 5px;
+	background: url(images1/jiao1.png) no-repeat -14px -11px;
+}
+#zhixiang{
+	width: 0px;
+	height: 0px;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 17px solid;
+	color: white;
+	position: absolute;
+	left: 76px;
+	top: -17px;
+	z-index: 2;
+}
+/*导航条菜单的悬浮介绍*/
+#fudongtu{
+	width: 280px;
+	height: 292px;
+	position: absolute;
+	left: 40px;
+	top:70px;
+	z-index: 1;
+	background: white;
+	display: none;
+}
+#tu1{
+	width: 260px;
+	height: 161px;
+	position: relative;
+	top: 10px;
+	left: 9px;
+}
+#tuzi1{
+	height: 100px;
+	width: 260px;
+	position: relative;
+	top: 20px;
+	left: 9px;
+}
+.daxiao{
+	font-size: 24px;
+	font-weight: bold;
+	width: 180px;
+}
+#maintop2{
+	position: relative;
+	width:1250px;
+	height: 356px;
+	left: 0px;
+	top: 70px; 
+}
+/*中间部分的上部的左边图片样式*/
+#maintopimg{
+	width: 912px;
+	height: 355px;
+	position: absolute;
+	float: left;
+	left: 10px;
+	top: 0px;
+}
+/*中间部分的上部的右边样式*/
+#maintopright{
+	width: 282px;
+	height: 355px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	right:40px;
+	top: 0px;
+}
+#dimg1{
+	width: 912px;
+	height: 355px;
+	position: relative;
+	left: 0px;
+	right: 0px;
+}
+#tujs1{
+	width: 912px;
+	height: 355px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0,0.6);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+    display: none;
+}
+.js1{
+	font-size: 24px;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+.js1 a{
+	color: white;
+}
+.js1 a:hover{
+	color: #ffa070;
+}
+.jj1{
+	position: absolute;
+	left: 50px;
+	width: 300px;
+	height: 70px;
+	top: 110px;
+}
+#waiyuanj{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top:200px;
+	left:50px;
+	border-radius: 90px;
+	background: #ffa070;
+}
+#sanjiaoj{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+	color: white;
+	border-left: 13px solid;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+#dimg2,#dimg3{
+	width: 912px;
+	height: 355px;
+	position: relative;
+	display: none;
+}
+#tujs2{
+	width: 367px;
+	height: 355px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0,0.6);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+ 	display: none;
+}
+#img3{
+	position: absolute;
+	left: 373px;
+	top: 0px;
+}
+#img4{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#img5{
+	position: absolute;
+	left: 373px;
+	bottom: 0px;
+}
+#img6{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#img8{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+#img9{
+	position: absolute;
+	left: 354px;
+	top: 0px;
+}
+#img10{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#img11{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#lefttop1{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #ffa070;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*中间部分右边头部标题样式*/
+#lefttop2,#lefttop3,#lefttop4{
+	width: 60px;
+	height: 50px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#lefttop2{
+	right:120px;
+}
+#lefttop3{
+	right:60px;
+}
+#lefttop4{
+	right:0px;
+}
+#line1,#line2,#line3{
+	width: 50px;
+	height: 5px;
+	background: #ffa070;
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	border-radius: 5px 5px 5px 5px;
+}
+#line2,#line3{
+	display: none;
+}
+/*中间部分右边中间内容样式*/
+#leftmain1,#leftmain2,#leftmain3{
+	width: 282px;
+	height: 305px;
+	position: relative;
+	left: 10px;
+	top: 8px;
+	color: white;
+}
+#leftmain2,#leftmain3{
+	display: none;
+}
+/*中间部分右边中间内容的序号样式*/
+#xuhao1,#xuhao2{
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	color: white;
+}
+#xuhao1{
+	background: #ffa070;
+}
+#xuhao2{
+	background: rgba(0,0,0,0.4);
+}
+.tda{
+	height: 10px;
+	line-height: 10px;
+}
+.tdd{
+	color: #daa520;
+}
+/*中间部分近期动画和最新动画样式*/
+#maintop3{
+	width: 1200px;
+	height: 80px;
+	position: absolute;
+	top: 380px;
+	left:10px;
+	background: white;
+}
+#spanyy1{
+	position: absolute;
+	width: 14px;
+	height: 12px;
+	top: 12px;
+	background: url(images1/jiao1.png) no-repeat -14px -11px;
+}
+#spanyy2{
+	position: absolute;
+	width: 14px;
+	height: 12px;
+	top: 42px;
+	background: url(images1/jiao1.png) no-repeat -14px -11px;
+}
+#namediv{
+	margin-left: 17px;
+	margin-right: 6px;
+}
+#maintop4{
+	width: 1200px;
+	height: 90px;
+	position: absolute;
+	top: 480px;
+	left:10px;
+	background: url(images1/tupian.jpg);
+}
+#tdb{
+	border-left: 1px dashed #ccc;
+}
+#table1{
+	position: absolute;
+	top:10px;
+}
+#tdc{
+	font-weight: bold;
+}
